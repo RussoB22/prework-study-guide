@@ -1,4 +1,4 @@
-var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
+var topics = ['HTML', 'CSS', 'Git', 'JavaScript', 'GitHub', 'SSH'];
 
 var randomTopic = topics[Math.floor(Math.random() * topics.length)];
 
@@ -30,7 +30,12 @@ function selectTopic() {
   } else if (randomTopic === 'JavaScript') {
 
     console.log("Let's study JavaScript!");
+  } else if (randomTopic === 'GitHub') {
 
+    console.log("DON'T DELETE THE MAIN BRANCH!");
+  } else if (randomTopic === 'SSH') {
+
+    console.log("Why doesn't it stick?!");
   } else {
 
     console.log('Please try again!');
