@@ -10,66 +10,75 @@
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <a href="https://courses.bootcampspot.com/" target=_blank title="This is the Bootcamp.">
+        <img src="./assets/bowtie-cat.png" alt="Cat with bowtie" />
+        </a>
       <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
-          <h2>HTML</h2>
-          <ul>
-              <li>The head element contains information about the webpage.</li>
-              <li>The body element represents the visible content shown to the user.</li>
-          </ul>
-
+        <details>  
+          <summary><h2>HTML</h2></summary>
+            <ul>
+                <li>The head element contains information about the webpage.</li>
+                <li>The body element represents the visible content shown to the user.</li>
+            </ul>
+        </details>
       </section>
    
       <section class="card" id="css-section">
-          <h2>CSS</h2>
+        <details>  
+          <summary><h2>CSS</h2></summary>
           <ul>
             <li>A margin indicates how much space we want around the outside of an element.</li>
             <li>A padding indicates how much space we want around the content inside an element.</li>
           </ul>
-   
+       </details>
       </section>
    
-      <section class="card" id="git-section">
-          <h2>Git</h2>
-          <ul>
-              <li>git status: checks what branch we are currently on</li>
-              <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-          </ul>
+      <section class="card" id="git-section">          
+          <details>
+            <summary><h2>Git</h2></summary>
+            <ul>
+                <li>git status: checks what branch we are currently on</li>
+                <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+                <li>git add -A: Stage All</li>
+                <li>git commit -m "Note"</li>
+                <li>git pull origin main: Download Main from Git</li>
+                <li>git push origin "branch": Send changes to Git</li>
+            </ul>
+          </details>
       </section>
    
       <section class="card" id="javascript-section">
-          <h2>JavaScript</h2>
+        <details>  
+          <summary><h2>JavaScript</h2></summary>
           <ul>
             <li>A variable is a named container that allows us to store data in our code.</li>
             <li>Control flow is the order in which a computer executes code in a script.</li>
           </ul>
+        </details>
+      </section>
 
-      </section>
-      <section class="card" id="GitHub-section">
-          <h2>GitHub</h2>
-          <ul>
-            <li>git add -A</li>
-            <li>git commit -m "Note"</li>
-            <li>git pull origin main</li>
-            <li>git push origin feature/"Branch"</li>
-          </ul>
-      </section>
       <section class="card" id="SSH-section">
-          <h2>SSH</h2>
+        <details>  
+          <summary><h2>SSH</h2></summary>
           <ul>
             <li>Nav to .SSH</li>
             <li>exec ssh-agent bash</li>
             <li>ssh-add SSHKEYBOOTCAMP</li>
             <li>ssh-agent</li>
           </ul>
+        </details>
       </section>
     </main>
 
     <footer>
       <p>I can code!</p>
+      <p>Click on Cards to see details.</p>
+      <a href="https://www.w3schools.com/" target=_blank title="This is the dictionary.">
+      <img src="./assets/W3.png" alt="This is the Dictionary" />
+      </a>
 
     </footer>
 
